@@ -1,7 +1,45 @@
-body{
-    div{
-        h1{
-            color:blue;
+section {
+    .wrapper {
+        .hero {
+            height: 500px;
+            background: linear-gradient(135deg, #ff7af5 0%, #513162 100%);
+            border-radius: 20px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .herobox {
+                max-width: 60%;
+                padding-left: 100px;
+                h2 {
+                    font-family: $fontpri;
+                    font-size: 40px;
+                    color: white;
+                }
+                h1 {
+                    font-family: $fontpri;
+                    font-size: 40px;
+                    text-transform: uppercase;
+                    color: white;
+                    font-weight: bold;
+                    font-weight: 600;
+                    padding-top: 5px;
+                }
+                p {
+                    max-width: 60%;
+                    font-family: $fontpri;
+                    font-size: 15px;
+                    color: white;
+                    padding-top: 5px;
+                }
+                .btnspace{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                    .btnhero{
+                        margin-left: 10px;
+                        }
+                    }
+                    }
+                }
+            }
         }
-    }
-}

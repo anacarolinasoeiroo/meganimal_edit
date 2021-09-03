@@ -1,8 +1,8 @@
 section {
     .wrapper {
+        span{
         display: grid;
         grid-template-columns: 2fr 1fr;
-        background-color: violet;
         .leftnav {
             height: 100%;
             display: flex;
@@ -97,4 +97,5 @@ section {
             }
         }
     }
+}
 }
