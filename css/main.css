@@ -266,7 +266,7 @@ section .wrapper .hero {
 }
 
 section .wrapper .hero .herobox {
-  max-width: 60%;
+  max-width: 50%;
   padding-left: 100px;
 }
 
@@ -306,5 +306,178 @@ section .wrapper .hero .herobox .btnspace {
 
 section .wrapper .hero .herobox .btnspace .btnhero {
   margin-left: 10px;
+}
+
+section .wrapper .hero .slickhero {
+  width: 50%;
+  height: 100%;
+}
+
+section .wrapper .hero .slickhero .imgblock1 {
+  background-image: url("/img/herodog.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+section .wrapper .hero .slickhero .imgblock2 {
+  background-image: url("/img/herocat.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+}
+
+section .wrapper .hero .slickhero .imgblock3 {
+  background-image: url("/img/herobird.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+section .wrapper h1 {
+  font-size: 40px;
+  font-family: "Roboto", "sans-serif";
+  padding-top: 40px;
+  color: #7f4489;
+  padding-bottom: 30px;
+}
+
+section .wrapper .favgrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  height: auto;
+  gap: 15px;
+}
+
+section .wrapper .favgrid .graitem {
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
+  background-color: #FCFCFC;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  height: 100%;
+  position: relative;
+}
+
+section .wrapper .favgrid .graitem .big {
+  height: 75%;
+}
+
+section .wrapper .favgrid .graitem .objeto {
+  padding-top: 10px;
+  font-family: "Roboto", "sans-serif";
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  width: 90%;
+  padding-left: 10px;
+}
+
+section .wrapper .favgrid .graitem .marca {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+section .wrapper .favgrid .graitem .preco {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  font-weight: 700;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+section .wrapper .favgrid .graitem a {
+  font-family: "Roboto", "sans-serif";
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 21px;
+  background-color: #F5AC0C;
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  left: 0;
+}
+
+section .wrapper .favgrid .peqitem {
+  background-color: #FCFCFC;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 27px;
+  height: 100%;
+  position: relative;
+}
+
+section .wrapper .favgrid .peqitem .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+section .wrapper .favgrid .peqitem .container img {
+  width: 50%;
+  height: 90%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+section .wrapper .favgrid .peqitem .container .specs {
+  padding-top: 50px;
+  padding-left: 10px;
+  height: 100%;
+}
+
+section .wrapper .favgrid .peqitem .container .specs .objeto {
+  font-family: "Roboto", "sans-serif";
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 10px;
+  width: 90%;
+}
+
+section .wrapper .favgrid .peqitem .container .specs .marca {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+section .wrapper .favgrid .peqitem .container .specs .preco {
+  font-family: "Roboto", "sans-serif";
+  font-size: 12px;
+  font-weight: 700;
+}
+
+section .wrapper .favgrid .peqitem a {
+  font-family: "Roboto", "sans-serif";
+  font-size: 10px;
+  text-transform: uppercase;
+  border-radius: 21px;
+  background-color: #F5AC0C;
+  color: white;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+  position: absolute;
+  bottom: 5px;
+  right: 0;
+  left: 0;
 }
 /*# sourceMappingURL=main.css.map */

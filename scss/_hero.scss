@@ -8,7 +8,7 @@ section {
             justify-content: flex-start;
             align-items: center;
             .herobox {
-                max-width: 60%;
+                max-width: 50%;
                 padding-left: 100px;
                 h2 {
                     font-family: $fontpri;
@@ -31,15 +31,41 @@ section {
                     color: white;
                     padding-top: 5px;
                 }
-                .btnspace{
+                .btnspace {
                     display: flex;
                     align-items: center;
                     margin-top: 30px;
-                    .btnhero{
+                    .btnhero {
                         margin-left: 10px;
-                        }
-                    }
                     }
                 }
             }
+            .slickhero {
+                width: 50%;
+                height: 100%;
+                .imgblock1 {
+                    background-image: url("/img/herodog.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 500px;
+                }
+                .imgblock2 {
+                    background-image: url("/img/herocat.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 540px;
+                }
+                .imgblock3 {
+                    background-image: url("/img/herobird.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 500px;
+
+                }
+            }
         }
+    }
+}

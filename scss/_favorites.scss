@@ -1,0 +1,126 @@
+section {
+    .wrapper {
+        h1 {
+            font-size: 40px;
+            font-family: $fontsec;
+            padding-top: 40px;
+            color: #7f4489;
+            padding-bottom: 30px;
+        }
+        .favgrid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            height: auto;
+            gap: 15px;
+            .graitem {
+                grid-row-start: 1;
+                grid-row-end: 3;
+                background-color: #FCFCFC;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 27px;                                
+                height: 100%;
+                position: relative;
+                .big{
+                    height: 75%;
+
+                }
+                .objeto{
+                    padding-top: 10px;
+                    font-family: $fontsec;
+                    font-size: 16px;
+                    font-weight: 700;
+                    padding-bottom: 10px;
+                    width: 90%;
+                    padding-left: 10px;
+
+                }
+                .marca{
+                    font-family: $fontsec;
+                    font-size: 12px;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                }
+                .preco{
+                    font-family: $fontsec;
+                    font-size: 12px;
+                    font-weight: 700;
+                    padding-left: 10px;
+                    padding-bottom: 10px;
+                }
+                a{
+                    font-family: $fontsec;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    border-radius: 21px;
+                    background-color: #F5AC0C;
+                    color: white;
+                    padding: 10px;
+                    margin:0 auto;
+                    text-align: center;
+                    width: 90%;
+                    position: absolute;
+                    bottom: 5px;
+                    right: 0;
+                    left: 0;
+                }
+
+            }
+            .peqitem {
+                background-color: #FCFCFC;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 27px;                
+                height: 100%;
+                position: relative;
+                .container {
+                    display: flex;
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        width: 50%;
+                        height: 90%;
+                        object-fit: contain;
+                    }
+                    .specs {
+                        padding-top: 50px;
+                        padding-left: 10px;
+                        height: 100%;
+                        .objeto {
+                            font-family: $fontsec;
+                            font-size: 16px;
+                            font-weight: 700;
+                            padding-bottom: 10px;
+                            width: 90%;
+                        }
+                        .marca {
+                            font-family: $fontsec;
+                            font-size: 12px;
+                            padding-bottom: 10px;
+                        }
+                        .preco {
+                            font-family: $fontsec;
+                            font-size: 12px;
+                            font-weight: 700;
+                        }
+                    }
+                }
+                a{
+                    font-family: $fontsec;
+                    font-size: 10px;
+                    text-transform: uppercase;
+                    border-radius: 21px;
+                    background-color: #F5AC0C;
+                    color: white;
+                    padding: 10px;
+                    margin:0 auto;
+                    text-align: center;
+                    width: 90%;
+                    position: absolute;
+                    bottom: 5px;
+                    right: 0;
+                    left: 0;
+                }
+        }
+    }
+}
+}
