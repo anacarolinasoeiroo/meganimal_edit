@@ -8,10 +8,12 @@ section {
             padding-bottom: 30px;
         }
         .favgrid {
+            width: 80%;
+            height: auto;
             display: grid;
             grid-template-columns: 1fr 1fr 1fr 1fr;
             grid-template-rows: 1fr 1fr;
-            height: auto;
+            margin: 0 auto;
             gap: 15px;
             .graitem {
                 grid-row-start: 1;

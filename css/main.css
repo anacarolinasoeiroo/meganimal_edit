@@ -326,11 +326,27 @@ section .wrapper .hero .slickhero .imgblock2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 540px;
+  height: 500px;
 }
 
 section .wrapper .hero .slickhero .imgblock3 {
   background-image: url("/img/herobird.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+section .wrapper .hero .slickhero .imgblock4 {
+  background-image: url("/img/herolizzard.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+section .wrapper .hero .slickhero .imgblock5 {
+  background-image: url("/img/herobunnies.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,13 +362,15 @@ section .wrapper h1 {
 }
 
 section .wrapper .favgrid {
+  width: 80%;
+  height: auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-  height: auto;
+  margin: 0 auto;
   gap: 15px;
 }
 
@@ -479,5 +497,53 @@ section .wrapper .favgrid .peqitem a {
   bottom: 5px;
   right: 0;
   left: 0;
+}
+
+section .wrapper .services {
+  background: linear-gradient(135deg, #FF7AF5 0%, #513162 100%);
+  border-radius: 20px;
+  margin-top: 40px;
+}
+
+section .wrapper .services h1 {
+  font-family: "Roboto", "sans-serif";
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+section .wrapper .services p {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+section .wrapper .services .btnspace {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section .wrapper .services .btnspace .btnservice {
+  font-family: "PT Sans", "sans-serif";
+  font-size: 15px;
+  border-radius: 37px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  font-weight: 700;
+  margin-left: 10px;
 }
 /*# sourceMappingURL=main.css.map */
