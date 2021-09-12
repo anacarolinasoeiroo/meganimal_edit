@@ -175,6 +175,12 @@ section .wrapper span .rightnav {
       grid-template-columns: 2fr 1fr 1fr;
 }
 
+@media (min-width: 0) and (max-width: 800px) {
+  section .wrapper span .rightnav {
+    display: none;
+  }
+}
+
 section .wrapper span .rightnav .searchbar {
   margin-left: 10px;
   display: -webkit-box;
@@ -503,6 +509,7 @@ section .wrapper .services {
   background: linear-gradient(135deg, #FF7AF5 0%, #513162 100%);
   border-radius: 20px;
   margin-top: 40px;
+  height: 35vh;
 }
 
 section .wrapper .services h1 {
@@ -545,5 +552,134 @@ section .wrapper .services .btnspace .btnservice {
   color: black;
   font-weight: 700;
   margin-left: 10px;
+}
+
+section .wrapper .subscribe h2 {
+  font-family: PT Sans;
+  font-size: 30px;
+  font-weight: 700;
+  width: 60%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+section .wrapper .subscribe .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px;
+}
+
+section .wrapper .subscribe .container input[type="text"] {
+  color: black;
+  padding: 12px 20px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 2px black;
+  text-align: center;
+  font-family: "PT Sans", "sans-serif";
+}
+
+section .wrapper .subscribe .container .submit {
+  color: black;
+  font-family: "PT Sans", "sans-serif";
+  font-size: 15px;
+  padding-left: 5px;
+}
+
+section .wrapper .subscribe .container .submit:hover {
+  color: #513162;
+  border: 2px solid #513162;
+  padding: 12px 20px;
+  text-shadow: 2px 2px 4px #513162;
+}
+
+footer {
+  background-color: #F5AC0C;
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  margin-top: 30px;
+}
+
+footer .wrapper .socials {
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer .wrapper .socials h2 {
+  color: white;
+  font-family: "Roboto", "sans-serif";
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+footer .wrapper .socials ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+footer .wrapper .socials ul li {
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+footer .wrapper .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  gap: 50px;
+  width: 100%;
+  margin-top: 15px;
+}
+
+footer .wrapper .container div h2 {
+  font-family: "PT Sans", "sans-serif";
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+footer .wrapper .container div ul li {
+  font-family: "Roboto", "sans-serif";
+  font-size: 10px;
+  margin-bottom: 5px;
+  color: black;
+  text-align: center;
+}
+
+footer .wrapper .container div ul li a {
+  color: black;
 }
 /*# sourceMappingURL=main.css.map */

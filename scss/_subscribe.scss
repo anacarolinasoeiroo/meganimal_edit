@@ -1,0 +1,45 @@
+section {
+    .wrapper {
+        .subscribe {
+            h2 {
+                font-family: PT Sans;
+                font-size: 30px;
+                font-weight: 700;
+                width: 60%;
+                display: block;
+                margin-right: auto;
+                margin-left: auto;
+                text-align: center;
+                margin-top: 30px;
+            }
+            .container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 20px;
+                input[type="text"] {
+                    color: black;
+                    padding: 12px 20px;
+                    border-top: none;
+                    border-left: none;
+                    border-right: none;
+                    border-bottom: solid 2px black;
+                    text-align: center;
+                    font-family: $fontpri;
+                }
+                .submit {
+                    color: black;
+                    font-family: $fontpri;
+                    font-size: 15px;
+                    padding-left: 5px;
+                    &:hover{
+                        color: #513162;
+                        border: 2px solid #513162;
+                        padding: 12px 20px;
+                        text-shadow: 2px 2px 4px #513162;
+                    }
+                }
+            }
+        }
+    }
+}

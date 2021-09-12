@@ -3,6 +3,7 @@ section {
         span{
         display: grid;
         grid-template-columns: 2fr 1fr;
+        
         .leftnav {
             height: 100%;
             display: flex;
@@ -40,6 +41,9 @@ section {
         .rightnav {
             display: grid;
             grid-template-columns: 2fr 1fr 1fr;
+            @include mq(0, 800px){
+                display: none;
+            }
             .searchbar {
                 margin-left: 10px;
                 display: flex;
