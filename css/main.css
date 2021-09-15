@@ -355,18 +355,13 @@ section .wrapper .hero .slickhero .imgblock5 {
 section .wrapper h1 {
   font-size: 40px;
   font-family: "Roboto", "sans-serif";
+  font-weight: 700;
   padding-top: 40px;
   color: #7f4489;
   padding-bottom: 30px;
 }
 
-@media (min-width: 0) and (max-width: 800px) {
-  section .wrapper h1 {
-    font-size: 30px;
-  }
-}
-
-section .wrapper .favgrid {
+section .favgrid {
   width: 80%;
   height: auto;
   display: -ms-grid;
@@ -379,7 +374,7 @@ section .wrapper .favgrid {
   gap: 15px;
 }
 
-section .wrapper .favgrid .graitem {
+section .favgrid .graitem {
   -ms-grid-row: 1;
       grid-row-start: 1;
   grid-row-end: 3;
@@ -391,11 +386,11 @@ section .wrapper .favgrid .graitem {
   position: relative;
 }
 
-section .wrapper .favgrid .graitem .big {
+section .favgrid .graitem .big {
   height: 75%;
 }
 
-section .wrapper .favgrid .graitem .objeto {
+section .favgrid .graitem .objeto {
   padding-top: 10px;
   font-family: "Roboto", "sans-serif";
   font-size: 16px;
@@ -405,14 +400,14 @@ section .wrapper .favgrid .graitem .objeto {
   padding-left: 10px;
 }
 
-section .wrapper .favgrid .graitem .marca {
+section .favgrid .graitem .marca {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
 
-section .wrapper .favgrid .graitem .preco {
+section .favgrid .graitem .preco {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   font-weight: 700;
@@ -420,7 +415,7 @@ section .wrapper .favgrid .graitem .preco {
   padding-bottom: 10px;
 }
 
-section .wrapper .favgrid .graitem a {
+section .favgrid .graitem a {
   font-family: "Roboto", "sans-serif";
   font-size: 10px;
   text-transform: uppercase;
@@ -437,7 +432,7 @@ section .wrapper .favgrid .graitem a {
   left: 0;
 }
 
-section .wrapper .favgrid .peqitem {
+section .favgrid .peqitem {
   background-color: #FCFCFC;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -446,7 +441,7 @@ section .wrapper .favgrid .peqitem {
   position: relative;
 }
 
-section .wrapper .favgrid .peqitem .container {
+section .favgrid .peqitem .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -454,20 +449,20 @@ section .wrapper .favgrid .peqitem .container {
   height: 100%;
 }
 
-section .wrapper .favgrid .peqitem .container img {
+section .favgrid .peqitem .container img {
   width: 50%;
   height: 90%;
   -o-object-fit: contain;
      object-fit: contain;
 }
 
-section .wrapper .favgrid .peqitem .container .specs {
+section .favgrid .peqitem .container .specs {
   padding-top: 50px;
   padding-left: 10px;
   height: 100%;
 }
 
-section .wrapper .favgrid .peqitem .container .specs .objeto {
+section .favgrid .peqitem .container .specs .objeto {
   font-family: "Roboto", "sans-serif";
   font-size: 16px;
   font-weight: 700;
@@ -475,19 +470,19 @@ section .wrapper .favgrid .peqitem .container .specs .objeto {
   width: 90%;
 }
 
-section .wrapper .favgrid .peqitem .container .specs .marca {
+section .favgrid .peqitem .container .specs .marca {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   padding-bottom: 10px;
 }
 
-section .wrapper .favgrid .peqitem .container .specs .preco {
+section .favgrid .peqitem .container .specs .preco {
   font-family: "Roboto", "sans-serif";
   font-size: 12px;
   font-weight: 700;
 }
 
-section .wrapper .favgrid .peqitem a {
+section .favgrid .peqitem a {
   font-family: "Roboto", "sans-serif";
   font-size: 10px;
   text-transform: uppercase;
