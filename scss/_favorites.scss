@@ -6,6 +6,9 @@ section {
             padding-top: 40px;
             color: #7f4489;
             padding-bottom: 30px;
+            @include mq(0,800px){
+                font-size: 30px;
+            }
         }
         .favgrid {
             width: 80%;
