@@ -3,11 +3,10 @@ section {
         h1 {
             font-size: 40px;
             font-family: $fontsec;
+            font-weight: 700;
             padding-top: 40px;
             color: #7f4489;
             padding-bottom: 30px;
-            @include mq(0,800px){
-                font-size: 30px;
             }
         }
         .favgrid {
