@@ -1,0 +1,16 @@
+section{
+    .wrapper{
+        .marcas{
+            width: 50%;
+            margin: 0 auto;
+            div{
+                img{
+                    width: 50%;
+                    filter: grayscale(75%);
+
+                }
+            }
+            
+        }
+    }
+}

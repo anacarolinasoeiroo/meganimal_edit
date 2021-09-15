@@ -202,7 +202,7 @@ section .wrapper span .rightnav .searchbar .searchbtn {
   width: 30px;
   background-color: #7f4489;
   border-radius: 3px;
-  border: 2px solid #7f4489;
+  border: 1px solid #7f4489;
   border-left: none;
   outline: none;
 }
@@ -607,6 +607,17 @@ section .wrapper .subscribe .container .submit:hover {
   border: 2px solid #513162;
   padding: 12px 20px;
   text-shadow: 2px 2px 4px #513162;
+}
+
+section .wrapper .marcas {
+  width: 50%;
+  margin: 0 auto;
+}
+
+section .wrapper .marcas div img {
+  width: 50%;
+  -webkit-filter: grayscale(75%);
+          filter: grayscale(75%);
 }
 
 footer {
